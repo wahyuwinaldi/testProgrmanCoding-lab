@@ -7,9 +7,8 @@ use Illuminate\Database\Eloquent\Model;
 class Level extends Model
 {
     //
-
-    public function students()
+    public function student()
     {
-        return $this->hasMany(Student::class);
+        return $this->belongsTo(Student::class);
     }
 }

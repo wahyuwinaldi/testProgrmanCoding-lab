@@ -23,7 +23,7 @@
             <th scope="row">{{ $x+1 }}</th>
             <td>{{ $level->kelas }}</td>
             <td>{{ $level->kelas }}</td>
-            <td>{{ $level->student }}</td>
+            <td>{{ $level->teacher }}</td>
         </tr>
         @endforeach
     </tbody>
